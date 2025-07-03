@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Payment</title>
+
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8b008b;">
+      <a  class="navbar-brand" href="#" style="padding-left: 8px;">Fantasia's Secrets</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="/welcome"><form action="/welcome" method="get">Products</form></a></li>
+          <li class="nav-item"><a class="nav-link" href="/payment"><form action="/payment" method="get">Payment</form></a></li>
+          <li class="nav-item"><a class="nav-link" href="/FAQs"><form action="/FAQs" method="get">FAQs</form></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="cover">
+    <div class="media cover">
+        <div class="feature--media-background">
+            <div class="image-placeholder3">
+                <div class="image-wrapper" style="padding-bottom: 10px;">
+                    <img src="/images/accept-card-payments-online-in-nigeria.jpeg" alt="" style="width: 100%; height: 80vh; display: block;">
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+    
+  <main class="payment-page">
+    <style>
+        .payment-page {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+
+        .payment-option {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        
+        .payment-option:hover {
+            background-color: #f8f8f8;
+        }
+        
+        .details {
+            font-size: 14px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .total {
+            border-top: 1px solid #ccc;
+            padding-top: 8px;
+            font-weight: bold;
+            color: red;
+        }
+
+        .continue-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            background-color: red;
+            color: white;
+            padding: 12px;
+            border: none;
+            font-size: 16px;
+            width: 100%;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .continue-button:hover {
+            background-color: darkred;
+        }
+
+        .arrow {
+            display: inline-block;
+            transform: translateX(2px);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 16px;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+
+            .continue-button {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+    <div class="container">
+        <h2>Select Payment Below</h2>
+        <div class="payment-option">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa" height="30">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" height="30">
+            <strong>LOCAL</strong>
+        </div>
+        <div class="payment-option">
+            <span>PocketMoni/eTranzact</span>
+        </div>
+        <div class="payment-option">
+            <span>GTBank Internet Banking</span>
+        </div>
+        <div class="details">
+            <div><strong>Payment To</strong>
+                <span>Fantasia's Secrets</span>
+            </div>
+            <div><span>Sub-Total</span>
+            <span>₦0.00</span>
+            </div>
+            <div><span>Payment Charges</span>
+             <span>₦0.00</span>
+            </div>
+            <div class="total"><span>Total</span>
+            <span>₦0.00</span>
+            </div>
+        </div>
+        <button class="continue-button">
+            Continue
+        </button>
+    </div>
+
+  </main>
+  
+
+  <section>
+   <footer style="
+   background-color: #8b008b;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   font-size: 1rem;
+   width: 100%;
+   box-sizing: border-box;
+   ">
+ <p style="margin: 5px;">&copy;2025 Fantasia's Secrets</p>
+ <p style="margin: 5px;">All right reserved | 
+  Contact us at <a href="mailto:ubaniaiyede@gmail.com"
+   style="color: #ffd700; text-decoration: none;">info@fantasiacosmetics
+    </a>
+ </p>
+ <div style="margin-top: 15px; display: flex; justify-content: center; gap: 10px;">
+   <a href="https://facebook.com"
+    target="_blank"  style="margin: 0 10px; color: white; text-decoration: none;">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" style="width: 24px; height: 24px; vertical-align:middle"></a>
+    <a href="https://instagram.com"
+     target="_blank" style="margin: 0 10px; color: white; text-decoration: none;">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" style="width: 24px; height: 24px; vertical-align: middle;"></a>
+    <a href="https://twitter.com"
+    target="_blank" style="margin: 0 10px; color: white; text-decoration: none;">
+   <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="Twitter/X" style="width: 24px; height: 24px; vertical-align: middle;"></a>
+ </div>
+</footer>
+</section>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+</body>
+</html>
